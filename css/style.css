@@ -74,6 +74,19 @@ nav a:hover {
 .perfil-img {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/*Section Background*/
+#background{
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
 /* Informações de Identificação */
@@ -91,7 +104,7 @@ nav a:hover {
 
 /* Dados */
 .endereco, .email, .telefone {
-    color: whitesmoke;
+    color: goldenrod;
 }
 
 /* Apresentação */
