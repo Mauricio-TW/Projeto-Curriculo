@@ -5,57 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Curriculo</title>
+    <title>Projeto Currículo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
     <!--Titulo-->
-    <h1>Atividade Prátrica - Currículo na Web</h1>
+    <header>
+        <div id="divheader">        
+            <h1 id="titulo">Atividade Prátrica - Currículo na Web</h1>
+        </div>
+    </header>
+   
+    <!--Nav-->
     <hr>
+    <section id="nav">
+    <nav id="menu">
         <a href="#ident">Identificação</a>
         <a href="#apres">Apresentação</a>
         <a href="#formac">Formação Acadêmica</a>
         <a href="#exper">Experiências Profissionais</a>
+    </nav>
+    </section>
     <hr>
-  
 
     <!--Imagem-->
-    <img src="/img/Popeye.jpg" alt="Foto Perfil" width="300px">
+    <div class="perfil-img">
+        <img src="/img/Popeye.jpg" alt="Foto Perfil" class="perfil">
+    </div>
 
+
+    <section id="background">
     <!--Identificação-->
     <h2 id="ident">Identificação</h2>
-    <ul>
-        <li>Popeye</li>
-        <li>popeye@sailor.com</li>
-        <li>(00)12345-6789</li>
-        <li>Rua Oliva Palito, Vila Espinafre</li>
+    <ul class="info">
+        <li class="nome">Popeye</li>
+        <li class="email">popeye@sailor.com</li>
+        <li class="telefone">(00)12345-6789</li>
+        <li class="endereco">Rua Oliva Palito, Vila Espinafre</li>
     </ul>
 
     <!--Apresentação-->
     <h2 id="apres">Apresentação</h2>
-    <p>Olá! Eu sou Popeye, um marinheiro destemido com uma paixão ardente pelo mar e uma determinação inabalável. Desde
+    <p class="apresentacao">Olá! Eu sou Popeye, um marinheiro destemido com uma paixão ardente pelo mar e uma determinação inabalável. Desde
         os meus humildes começos como um simples marinheiro até as aventuras que moldaram meu caráter, cada momento da
         minha jornada foi uma oportunidade para aprender, crescer e fortalecer minha resiliência.</p>
 
-       <p> Nascido sob o signo das velas dos navios, aprendi desde cedo os valores da honra, da lealdade e da bravura,
+    <p class="apresentacao">Nascido sob o signo das velas dos navios, aprendi desde cedo os valores da honra, da lealdade e da bravura,
         fundamentais para a vida no mar. Minha experiência como comandante de navio e operador de guindaste me equipou
         com habilidades técnicas e liderança, garantindo a segurança da tripulação e a eficiência das operações
         portuárias.</p>
 
-        <p>Estou sempre em busca de novos desafios e oportunidades para expandir meus horizontes. Determinado e destemido,
+    <p class="apresentacao">Estou sempre em busca de novos desafios e oportunidades para expandir meus horizontes. Determinado e destemido,
         estou pronto para enfrentar qualquer desafio que o oceano me apresente e ansioso para contribuir com minha
         experiência e habilidades para qualquer equipe que compartilhe minha paixão pelo mar e pela aventura.</p>
 
     <!--Formação academica-->
     <h2 id="formac">Formação Acadêmica</h2>
-    <ol>
+    <ol class="formacao">
         <li>Escola de Marinharia Popeye</li>
         <li>Academia Naval do Almirante Brutus</li>
         <li>Curso de Navegação Avançada - Instituto Mar dos Sete Mares</li>
     </ol>
-    <!--Exoeriencia 1-->
+
+    <!--Experiencia 1-->
     <h2 id="exper">Experiências Profissionais</h2>
-    <dl>
+    <dl class="experiencia">
         <dt>Marinha Real</dt>
         <dd>Comandante de navio - Responsável pela navegação segura e eficiente em mares turbulentos.</dd>
         <dd>Supervisão da equipe de marujos - Coordenação de atividades a bordo e garantia da disciplina e eficiência da
@@ -67,8 +82,7 @@
         <dd>Inspeção de navios - Verificação de conformidade com regulamentos portuários e procedimentos de segurança.
         </dd>
     </dl>
-
-
+    </section>
 </body>
 
 </html>
